@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ayeg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="34"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:5:5-65
+11-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:5:22-62
+12
+13    <!-- Declare camera usage but not required to launch app -->
+14    <uses-feature
+14-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:8:5-85
+15        android:name="android.hardware.camera"
+15-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:8:19-57
+16        android:required="false" />
+16-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:8:58-82
+17
+18    <permission
+18-->[androidx.core:core:1.13.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/0a5871560d179771d658bd5660b07f74/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.ayeg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.13.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/0a5871560d179771d658bd5660b07f74/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.13.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/0a5871560d179771d658bd5660b07f74/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.ayeg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.13.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/0a5871560d179771d658bd5660b07f74/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.13.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/0a5871560d179771d658bd5660b07f74/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26
+27    <application
+27-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:10:5-32:19
+28        android:allowBackup="true"
+28-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:11:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/0a5871560d179771d658bd5660b07f74/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:12:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:13:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:14:9-43
+35        android:label="@string/app_name"
+35-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:15:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:16:9-54
+37        android:supportsRtl="true"
+37-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:17:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.Ayeg" >
+39-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:18:9-42
+40        <activity
+40-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:21:9-31:20
+41            android:name="com.example.ayeg.MainActivity"
+41-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:22:13-41
+42            android:exported="true"
+42-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:23:13-36
+43            android:label="@string/app_name"
+43-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:24:13-45
+44            android:theme="@style/Theme.Ayeg" >
+44-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:25:13-46
+45            <intent-filter>
+45-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:26:13-30:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:27:17-69
+46-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:27:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:29:17-77
+48-->/Users/leighchejaikarran/AndroidStudioProjects/Ayeg/app/src/main/AndroidManifest.xml:29:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/c15bcf1bded28fa354e3e5db4bcd6948/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:23:9-25:39
+52            android:name="androidx.activity.ComponentActivity"
+52-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/c15bcf1bded28fa354e3e5db4bcd6948/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:24:13-63
+53            android:exported="true" />
+53-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/c15bcf1bded28fa354e3e5db4bcd6948/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:25:13-36
+54        <activity
+54-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/00d0f7322cd15a5e02258c3c4539c057/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+55            android:name="androidx.compose.ui.tooling.PreviewActivity"
+55-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/00d0f7322cd15a5e02258c3c4539c057/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+56            android:exported="true" />
+56-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/00d0f7322cd15a5e02258c3c4539c057/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+57        <!--
+58        Service for holding metadata. Cannot be instantiated.
+59        Metadata will be merged from other manifests.
+60        -->
+61        <service
+61-->[androidx.camera:camera-core:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/101f43dad4967435ad782f283db4b5ef/transformed/camera-core-1.3.0/AndroidManifest.xml:29:9-33:78
+62            android:name="androidx.camera.core.impl.MetadataHolderService"
+62-->[androidx.camera:camera-core:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/101f43dad4967435ad782f283db4b5ef/transformed/camera-core-1.3.0/AndroidManifest.xml:30:13-75
+63            android:enabled="false"
+63-->[androidx.camera:camera-core:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/101f43dad4967435ad782f283db4b5ef/transformed/camera-core-1.3.0/AndroidManifest.xml:31:13-36
+64            android:exported="false" >
+64-->[androidx.camera:camera-core:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/101f43dad4967435ad782f283db4b5ef/transformed/camera-core-1.3.0/AndroidManifest.xml:32:13-37
+65            <meta-data
+65-->[androidx.camera:camera-camera2:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/2fd73d03b5acb6102f10449d5a765fb1/transformed/camera-camera2-1.3.0/AndroidManifest.xml:30:13-32:89
+66                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+66-->[androidx.camera:camera-camera2:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/2fd73d03b5acb6102f10449d5a765fb1/transformed/camera-camera2-1.3.0/AndroidManifest.xml:31:17-103
+67                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+67-->[androidx.camera:camera-camera2:1.3.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/2fd73d03b5acb6102f10449d5a765fb1/transformed/camera-camera2-1.3.0/AndroidManifest.xml:32:17-86
+68        </service>
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.ayeg.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.4.0] /Users/leighchejaikarran/.gradle/caches/transforms-3/04da80a6fca3327fe9f97cceef988bb0/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/leighchejaikarran/.gradle/caches/transforms-3/a90cc3531b5307a1f0fa7ce41019fe37/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/leighchejaikarran/.gradle/caches/transforms-3/a90cc3531b5307a1f0fa7ce41019fe37/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/leighchejaikarran/.gradle/caches/transforms-3/a90cc3531b5307a1f0fa7ce41019fe37/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/leighchejaikarran/.gradle/caches/transforms-3/ad01d0dae26dc2835217e363eb7498bf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>
